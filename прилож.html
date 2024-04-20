@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Real Estate Listings</title>
+</head>
+<body>
+<h1>Welcome to our Real Estate Listings</h1>
+
+<h2>Admin Panel</h2>
+<form action="add_listing.php" method="POST">
+<label for="address">Address:</label>
+<input type="text" id="address" name="address"><br><br>
+<label for="price">Price:</label>
+<input type="number" id="price" name="price"><br><br>
+<label for="bedrooms">Bedrooms:</label>
+<input type="number" id="bedrooms" name="bedrooms"><br><br>
+<label for="bathrooms">Bathrooms:</label>
+<input type="number" id="bathrooms" name="bathrooms"><br><br>
+<input type="submit" value="Add Listing">
+</form>
+
+<h2>Client View</h2>
+<p>Select a listing:</p>
+<select>
+<option value="listing1">123 Main St - $250,000 - 3 Bed, 2 Bath</option>
+<option value="listing2">456 Elm St - $300,000 - 4 Bed, 3 Bath</option>
+<option value="listing3">789 Oak St - $200,000 - 2 Bed, 1 Bath</option>
+</select>
+
+</body>
+</html>
